@@ -9,6 +9,10 @@ font-family: 'Sansita Swashed', cursive;
     --custom-green: rgb(51, 204, 51);
 }
 
+html {
+    min-height: 100%;
+}
+
 body {
     size: 100%;
     background-image: linear-gradient(lightskyblue, azure);
