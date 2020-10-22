@@ -1,0 +1,118 @@
+/*
+Google Fonts:
+
+font-family: 'Rubik', sans-serif;
+
+font-family: 'Sansita Swashed', cursive;
+*/
+:root {
+    --custom-green: rgb(51, 204, 51);
+}
+
+body {
+    size: 100%;
+    background-image: linear-gradient(lightskyblue, azure);
+    font-family: 'Rubik', sans-serif;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    top: 20px;
+    z-index: 100;
+    padding-left: 10px;
+    Background-color: white;
+    border: solid darkblue;
+}
+
+#menuText {
+    padding-right: 1em;
+}
+
+.activeTab {
+    color: grey;
+}
+
+nav button {
+    margin: 0;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2em;
+}
+
+.menuOff {
+    left: -145px;
+}
+
+.menuOn {
+    left: 10px;
+}
+
+main {
+    background-color: white;
+    padding: 1% 2%;
+    margin: 2.5% 4%;
+}
+
+li {
+    margin-bottom: .3em;
+    list-style-type: circle;
+}
+
+h2 {
+    font-family: 'Sansita Swashed', cursive;
+    color: darkblue;
+}
+
+img {
+    float: right;
+    max-width: 25%;
+}
+
+img:nth-of-type(2n) {
+    float: left;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: grey;
+}
+
+/* Social Media Icons */
+.fa {
+    padding: 20px;
+    width: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      text-decoration: none;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }

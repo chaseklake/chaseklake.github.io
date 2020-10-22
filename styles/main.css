@@ -1,0 +1,14 @@
+.workExperienceList {
+    color: darkslategray;
+    list-style: inside;
+}
+
+.workExperienceList li strong {
+    color: black;
+    display: inline;
+}
+
+.workExperienceList li p {
+    font-size: .9em;
+    margin: 0;
+}
