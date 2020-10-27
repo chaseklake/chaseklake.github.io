@@ -1,0 +1,17 @@
+.center {
+    display: block;
+    margin: auto;
+    width: 20%;
+    float: none;
+}
+
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    color: darkblue;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
